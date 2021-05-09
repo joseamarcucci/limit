@@ -5,7 +5,7 @@ import streamlit as st
 
 st.title("Visualizing Central Limit Theorem")
 
-POP_MIN, POP_MAX = st.sidebar.slider('Select the population range (Example: range of age is 0-100)',0, 10000, (0, 1000))
+POP_MIN, POP_MAX = st.sidebar.slider('Seleccionar rango (Example: range of age is 0-100)',0, 10000, (0, 1000))
 
 
 pop_size = st.sidebar.slider(label="Choose the Population size ('N') - Creates a population of size 'N' within the population range",
